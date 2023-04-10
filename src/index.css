@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body,
+#root {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgb(241, 80, 107), yellow);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (minwidth: 40rem) {
+  body,
+  #root {
+    width: 100%;
+    background-image: linear-gradient(rgb(241, 80, 107), yellow);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
